@@ -7,9 +7,12 @@
     }
 }
 
-namespace Practic_1.DataSet1TableAdapters {
-    
-    
+namespace Practic_1.DataSet1TableAdapters
+{
+    partial class CarsTableAdapter
+    {
+    }
+
     public partial class ChelikTableAdapter {
     }
 }
