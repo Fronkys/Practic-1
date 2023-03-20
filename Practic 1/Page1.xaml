@@ -9,13 +9,14 @@
       Title="Page1">
 
     <Grid>
-        <DataGrid x:Name="CarsGrid"/>
+        <DataGrid x:Name="CarsGrid" SelectionChanged="CarsGrid_SelectionChanged"/>
         <ComboBox x:Name="CarsComboBox" HorizontalAlignment="Left" Margin="554,181,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.58,1.726"/>
         <TextBox  x:Name="CarsName" Text="Название машины" HorizontalAlignment="Left" Margin="97,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox  x:Name="CarsPrice" HorizontalAlignment="Left" Margin="239,183,0,0" TextWrapping="Wrap" Text="Стоимость машины" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="CarsColor" HorizontalAlignment="Left" Margin="400,185,0,0" TextWrapping="Wrap" Text="Цвет машины" VerticalAlignment="Top" Width="120"/>
         <Button Content="Добавить машину" HorizontalAlignment="Left" Margin="97,225,0,0" VerticalAlignment="Top" Width="193" Click="Button_Click"/>
         <Button Content="Удалить машину" HorizontalAlignment="Left" Margin="485,225,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.631,-0.336" Width="189" Click="Button_Click_1"/>
+        <Button Content="Внести изменения" HorizontalAlignment="Left" Margin="314,225,0,0" VerticalAlignment="Top" Width="146" Click="Button_Click_2"/>
 
     </Grid>
 

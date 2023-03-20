@@ -9,12 +9,13 @@
       Title="Page2">
 
     <Grid>
-        <DataGrid x:Name="BuyersGrid" />
+        <DataGrid x:Name="BuyersGrid" SelectionChanged="BuyersGrid_SelectionChanged"/>
         <TextBox x:Name="NameUser" HorizontalAlignment="Left" Margin="127,178,0,0" TextWrapping="Wrap" Text="Введите имя" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="SurnameUser" HorizontalAlignment="Left" Margin="298,178,0,0" TextWrapping="Wrap" Text="Введите фамилию" VerticalAlignment="Top" Width="120"/>
         <ComboBox x:Name="BuyersComboBox" HorizontalAlignment="Left" Margin="474,176,0,0" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Добавить нового покупателя" HorizontalAlignment="Left" Margin="127,243,0,0" VerticalAlignment="Top" Height="23" Width="232" Click="Button_Click"/>
-        <Button Content="Удалить покупателя" HorizontalAlignment="Left" Margin="400,243,0,0" VerticalAlignment="Top" Height="23" Width="241" Click="Button_Click_1"/>
+        <Button Content="Добавить нового покупателя" HorizontalAlignment="Left" Margin="127,243,0,0" VerticalAlignment="Top" Height="23" Width="189" Click="Button_Click"/>
+        <Button Content="Удалить покупателя" HorizontalAlignment="Left" Margin="474,243,0,0" VerticalAlignment="Top" Height="23" Width="167" Click="Button_Click_1"/>
+        <Button Content="Обновить покупателя" HorizontalAlignment="Left" Margin="331,243,0,0" VerticalAlignment="Top" Width="128" Height="23" Click="Button_Click_2"/>
 
     </Grid>
 </Page>
